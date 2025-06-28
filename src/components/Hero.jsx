@@ -4,6 +4,8 @@ import { Code, Palette, Smartphone, Globe, ExternalLink, Github } from "lucide-r
 
 import { FaLinkedin, FaGithub, FaMedium, FaStackOverflow, FaFacebook, FaTwitter } from 'react-icons/fa';
 import { SiDevpost } from 'react-icons/si';
+import { a, span } from "framer-motion/client";
+import { Link } from "react-router-dom";
 
 
 const Hero = () => {
@@ -19,8 +21,8 @@ const Hero = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Dashboard",
-      description: "A modern React dashboard for managing online store operations with real-time analytics.",
+      title: "Hotel Booking Web Application | MERN Stack",
+      description: "Developed a fullstack hotel booking platform using MongoDB, Express, React, and Node.js with ...see more",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
       tags: ["React", "TypeScript", "Tailwind"],
       demoLink: "#",
@@ -207,7 +209,16 @@ const Hero = () => {
                 
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-800 mb-2">{project.title}</h3>
-                  <p className="text-gray-600 mb-4">{project.description}</p>
+                  <p className="text-gray-600 mb-4">
+                    {project.description}
+                    <Link
+                      to="/projects"
+                      className="text-blue-600 hover:underline ml-1"
+                    >
+                      see more
+                    </Link>
+                  </p>
+
                   
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag) => (

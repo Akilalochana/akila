@@ -100,8 +100,8 @@ const heroSlides = [
   {
     id: 1,
     image: "/groupphoto.jpg",
-    title: "Welcome to My Portfolio",
-    subtitle: "Full Stack Developer & UI/UX Designer",
+    title: "Best group work experience",
+    subtitle: "Ceilao grid",
     description: "Creating amazing digital experiences with modern technologies"
   },
   {
