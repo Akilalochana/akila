@@ -35,7 +35,7 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
-      <a href="#contact" className="navbar-cta">Talk to me</a>
+      <a href="#contact" className="navbar-cta">get in touch</a>
     </motion.nav>
   );
 };
