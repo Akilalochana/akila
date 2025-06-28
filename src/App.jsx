@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        <Navbar />
+        <Navbar className="fixed top-0 z-50" />
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />

@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Code, Palette, Smartphone, Globe, ExternalLink, Github } from "lucide-react";
 
-import { FaLinkedin, FaGithub, FaMedium, FaStackOverflow } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaMedium, FaStackOverflow, FaFacebook, FaTwitter } from 'react-icons/fa';
 import { SiDevpost } from 'react-icons/si';
 
 
@@ -57,9 +57,9 @@ const Hero = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
     >
-      <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+      <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-40">
         {/* Left Side Content */}
-        <div className="flex-1 max-w-2xl text-center lg:text-left">
+        <div className="flex-1 max-w-2xl text-center lg:text-left  ">
           <motion.h1 
             className="text-5xl font-bold text-gray-800 mb-6"
             initial={{ opacity: 0, y: 20 }}
@@ -84,8 +84,8 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
           >
             <a href="#projects">
-              <button className="bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-blue-600 transition-colors text-lg font-medium">
-                View My Work
+              <button className="bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-green-600 transition-colors text-lg font-medium bg-green-500">
+                download CV
               </button>
             </a>
           </motion.div>
@@ -112,6 +112,14 @@ const Hero = () => {
             <a href="https://devpost.com/yourusername" target="_blank" rel="noopener noreferrer">
               <SiDevpost className="text-2xl text-blue-600 hover:scale-110 transition-transform duration-300" />
             </a>
+
+            <a href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="text-2xl text-blue-600 hover:scale-110 transition-transform duration-300" />
+            </a>
+
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <FaTwitter className="text-2xl text-blue-400 hover:scale-110 transition-transform duration-300" />
+            </a>
           </motion.div>
         </div>
 
@@ -123,8 +131,8 @@ const Hero = () => {
           transition={{ delay: 0.3, duration: 0.6 }}
         >
           <img 
-            className="w-80 h-80 rounded-2xl object-cover shadow-2xl" 
-            src="https://randomuser.me/api/portraits/men/32.jpg" 
+            className="w-100 h-100 rounded-2xl object-cover shadow-2xl" 
+            src="./mylogo.jpg" 
             alt="Profile" 
           />
         </motion.div>
