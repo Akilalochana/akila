@@ -8,15 +8,15 @@ const projects = [
     title: "Hotel Booking Web Application | MERN Stack",
     subtitle: "Live Demo",
     description: "Developed a fullstack hotel booking platform using MongoDB, Express, React, and Node.js with secure JWT authentication, Google login, and role-based access control.",
-    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=250&fit=crop",
-    demoLink: "https://your-demo-link.com",
+    image: "./hbook.jpg",
+    demoLink: "https://hotel-rooms-booking-frontend-mern.vercel.app/",
     githubLinks: {
-      frontend: "https://github.com/yourusername/hotel-booking-frontend",
-      backend: "https://github.com/yourusername/hotel-booking-backend"
+      frontend: "https://github.com/Akilalochana/Hotel-booking-frontend-MERN",
+      backend: "https://github.com/Akilalochana/Hotel-rooms-booking-backend-MERN"
     },
     specialLinks: {
-      chatbot: "https://huggingface.co/your-chatbot",
-      automation: "https://huggingface.co/your-automation"
+      chatbot: "https://huggingface.co/spaces/akilalochana/my-chata/tree/main",
+      automation: "https://huggingface.co/spaces/akilalochana/review-sentiment-api/tree/main"
     },
     features: [
       "RESTful API: Designed and implemented robust APIs for managing rooms, bookings, and user reviews",
@@ -44,7 +44,7 @@ const projects = [
     subtitle: "React",
     description: "A responsive interface that allows users to search for properties by multiple criteria, including property type, price range, number of bedrooms and date added.",
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=250&fit=crop",
-    demoLink: "#",
+    demoLink: "https://react-cw.vercel.app/",
     githubLinks: {
       main: "https://github.com/Akilalochana/react-CW"
     },
@@ -61,10 +61,10 @@ const projects = [
     subtitle: "MERN Stack | Live Demo",
     description: "An e-commerce platform to create, customize, and sell birthday cards. The app supports two user roles: Admin and User with comprehensive management features.",
     image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=250&fit=crop",
-    demoLink: "https://your-birthday-demo.com",
+    demoLink: "https://cey-trend-frontend.vercel.app/",
     githubLinks: {
-      frontend: "https://github.com/yourusername/birthday-frontend",
-      backend: "https://github.com/yourusername/birthday-backend"
+      frontend: "https://github.com/Akilalochana/CeyTrend-frontend",
+      backend: "https://github.com/Akilalochana/CeyTrend-backend"
     },
     features: [
       "Admin: Manage users, orders, products (cards), and site content",
@@ -79,7 +79,7 @@ const projects = [
     subtitle: "Kotlin | IIT Cutting Edge 2025 – 1st Place 🏆",
     description: "Developed an innovative agricultural price prediction system demonstrating profit potential in small-scale farming operations. Technical Lead & ML Developer role.",
     image: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400&h=250&fit=crop",
-    demoLink: "https://your-demo-video.com",
+    demoLink: "https://youtu.be/WPl7Ob-SBwA?si=55W9NlseYfcovCzd",
     githubLinks: {
       main: "https://github.com/Akilalochana/Software-Development-Group-Project"
     },

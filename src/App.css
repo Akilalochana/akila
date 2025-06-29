@@ -11,7 +11,7 @@ body {
 .app-container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 8rem 1.5rem 0 1.5rem;
 }
 
 /* Navbar */
@@ -51,6 +51,11 @@ body {
   padding: 1.2rem 2.5rem;
   margin: 1rem 0 0.5rem 0;
   box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  position: fixed;
+  top: 0; 
+  z-index: 1000;
+  
+  width: 1350px;
 }
 .navbar-logo-group {
   display: flex;
@@ -118,18 +123,81 @@ body {
   color: #fff;
 }
 
+/* Hamburger Icon Styles */
+.navbar-hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 38px;
+  height: 38px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+  margin-left: 1rem;
+}
+.hamburger-bar {
+  width: 100%;
+  height: 4px;
+  background: #222;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+.hamburger-bar.open:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+.hamburger-bar.open:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-bar.open:nth-child(3) {
+  transform: translateY(-9px) rotate(-45deg);
+}
+
+/* Mobile Menu Styles */
+.navbar-mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  border-radius: 0 0 2rem 2rem;
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  z-index: 1050;
+}
+
 /* Responsive for Navbar */
 @media (max-width: 900px) {
   .navbar-modern {
-    flex-direction: column;
-    gap: 1.2rem;
+    flex-direction: row;
+    gap: 0.5rem;
     padding: 1.2rem 1rem;
+    width: 100vw;
+    max-width: 100vw;
+  }
+  .navbar-logo-group {
+    flex: 1;
   }
   .navbar-links-modern {
-    gap: 1.2rem;
+    display: none;
   }
   .navbar-cta {
-    margin-left: 0;
+    display: none;
+  }
+  .navbar-hamburger {
+    display: flex;
+  }
+}
+@media (min-width: 900px) {
+  .navbar-hamburger {
+    display: none;
+  }
+  .navbar-mobile-menu {
+    display: none !important;
   }
 }
 
@@ -311,6 +379,72 @@ body {
 }
 .contact-link:hover {
   color: #0056b3;
+}
+
+/* Contact Form Modern Styles */
+.contact-form {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  padding: 2.5rem 2rem;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: 1.5px solid #e0e0e0;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #20cf43;
+  outline: none;
+}
+.contact-form label {
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.contact-form .error {
+  color: #e53e3e;
+  font-size: 0.95rem;
+  margin-top: -0.8rem;
+  margin-bottom: 1rem;
+}
+.contact-form button[type="submit"] {
+  background: #20cf43;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.9rem 0;
+  border: none;
+  border-radius: 1rem;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(32,207,67,0.08);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.contact-form button[type="submit"]:hover {
+  background: #1db03a;
+}
+.contact-form .success-message {
+  color: #20cf43;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 1.2rem 0.5rem;
+  }
 }
 
 /* Footer */

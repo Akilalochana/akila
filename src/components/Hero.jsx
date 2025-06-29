@@ -22,28 +22,28 @@ const Hero = () => {
     {
       id: 1,
       title: "Hotel Booking Web Application | MERN Stack",
-      description: "Developed a fullstack hotel booking platform using MongoDB, Express, React, and Node.js with ...see more",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
-      tags: ["React", "TypeScript", "Tailwind"],
-      demoLink: "#",
-      githubLink: "#"
+      description: "Developed a fullstack hotel booking platform using MongoDB, Express, React, and Node.js with",
+      image: "./hotel.png",
+      tags: ["React", "javaScript", "Tailwind","MongoDB", "genarative AI"],
+      demoLink: "https://hotel-rooms-booking-frontend-mern.vercel.app/",
+      githubLink: "https://github.com/Akilalochana/Hotel-booking-frontend-MERN"
     },
     {
       id: 2,
-      title: "Weather App",
-      description: "Beautiful weather application with location-based forecasts and interactive maps.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
-      tags: ["React", "API Integration", "CSS3"],
-      demoLink: "#",
-      githubLink: "#"
+      title: "BirthdayCard Selling Web App | MERN Stack",
+      description: "An e-commerce platform to create, customize, and sell birthday cards. The app supports two user roles",
+      image: "./birthday.png",
+      tags: ["React", "Tailwind", "CSS3", "Node.js", "Express.js", "MongoDB"],
+      demoLink: "https://cey-trend-frontend.vercel.app/",
+      githubLink: "https://github.com/Akilalochana/CeyTrend-frontend"
     },
     {
       id: 3,
-      title: "Portfolio Website",
+      title: "Mobile App | Kotlin | IIT Cutting Edge 2025 – 1st Place 🏆",
       description: "Responsive portfolio showcasing modern web development techniques and animations.",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=250&fit=crop",
-      tags: ["Next.js", "Framer Motion", "SCSS"],
-      demoLink: "#",
+      image: "./groupphoto.jpg",
+      tags: ["AR", "kotlin", "Firebase", "CI/CD", "GitHub Actions", "AR Model", ],
+      demoLink: "https://youtu.be/WPl7Ob-SBwA?si=0Lvb7helWcMj1Oyt",
       githubLink: "#"
     }
   ];
