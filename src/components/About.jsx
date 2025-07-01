@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaCode, FaRocket, FaLightbulb, FaUsers, FaGraduationCap, FaHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const skills = [
   { name: "React", level: 90, color: "bg-blue-500" },
@@ -162,7 +163,7 @@ const About = () => {
 {/* View Certificates Button */}
 <div className="flex justify-center mb-6">
   <a
-    href="/certificates/OL_AL_Certificates.pdf" // Update the path to your actual file
+    href="./AL_certificate.pdf" // Update the path to your actual file
     target="_blank"
     rel="noopener noreferrer"
     className="bg-yellow-50 px-5 py-2 rounded-full border border-yellow-200 hover:bg-yellow-100 transition-colors text-yellow-700 font-medium"
@@ -302,14 +303,23 @@ const About = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Get In Touch
+              <Link to="/contact">Get In Touch</Link>
+              
             </motion.button>
             <motion.button
               className="border-2 border-emerald-500 text-emerald-500 px-8 py-4 rounded-full font-semibold hover:bg-emerald-500 hover:text-white transition-all duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
+              <a 
+                            
+               href="./Akila_Lochan_CV.pdf" // Update the path to your actual file
+               target="_blank"
+               rel="noopener noreferrer">
+                            
               Download CV
+                            
+              </a>
             </motion.button>
           </div>
         </motion.div>

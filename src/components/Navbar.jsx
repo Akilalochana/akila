@@ -48,7 +48,7 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
-      <a href="#contact" className="navbar-cta hidden md:flex">get in touch</a>
+      <a href="#contact" className="navbar-cta hidden md:flex"><Link to="/contact">Get In Touch</Link></a>
       {/* Mobile Menu */}
       <AnimatePresence>
         {menuOpen && (

@@ -85,11 +85,17 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
           >
-            <a href="#projects">
+            <a 
+              
+              href="./Akila_Lochan_CV.pdf" // Update the path to your actual file
+              target="_blank"
+              rel="noopener noreferrer">
               <button className="bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-green-600 transition-colors text-lg font-medium bg-green-500">
                 download CV
               </button>
             </a>
+
+
           </motion.div>
 
           {/* Social Icons */}
@@ -99,19 +105,19 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.6 }}
           >
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/akilalochana/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-2xl text-blue-700 hover:scale-110 transition-transform duration-300" />
             </a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Akilalochana" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-2xl text-gray-800 hover:scale-110 transition-transform duration-300" />
             </a>
-            <a href="https://medium.com/@yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://medium.com/@akilalochana7" target="_blank" rel="noopener noreferrer">
               <FaMedium className="text-2xl text-black hover:scale-110 transition-transform duration-300" />
             </a>
-            <a href="https://stackoverflow.com/users/youruserid" target="_blank" rel="noopener noreferrer">
+            <a href="https://meta.stackexchange.com/users/1774695/akila-lochana" target="_blank" rel="noopener noreferrer">
               <FaStackOverflow className="text-2xl text-orange-500 hover:scale-110 transition-transform duration-300" />
             </a>
-            <a href="https://devpost.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://devpost.com/akilalochana7?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank" rel="noopener noreferrer">
               <SiDevpost className="text-2xl text-blue-600 hover:scale-110 transition-transform duration-300" />
             </a>
 
@@ -119,7 +125,7 @@ const Hero = () => {
               <FaFacebook className="text-2xl text-blue-600 hover:scale-110 transition-transform duration-300" />
             </a>
 
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/aki32726" target="_blank" rel="noopener noreferrer">
               <FaTwitter className="text-2xl text-blue-400 hover:scale-110 transition-transform duration-300" />
             </a>
           </motion.div>
