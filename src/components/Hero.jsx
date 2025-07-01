@@ -249,7 +249,7 @@ const Hero = () => {
             viewport={{ once: true }}
           >
             <button className="bg-[#20cf43] text-white px-8 py-3 rounded-lg hover:bg-green-600 transition-colors cursor-pointer">
-              View All Projects
+              <Link to="/projects">View All Projects</Link>
             </button>
           </motion.div>
         </div>
