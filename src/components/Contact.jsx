@@ -121,7 +121,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="w-full bg-emerald-500 text-white font-semibold py-3 rounded-lg shadow-lg hover:bg-emerald-600 transition-all text-lg flex items-center justify-center gap-2 disabled:opacity-60"
+                className="w-full bg-[#20cf43] text-white font-semibold py-3 rounded-lg shadow-lg hover:bg-green-600 transition-all text-lg flex items-center justify-center gap-2 disabled:opacity-60"
                 disabled={loading}
               >
                 {loading ? (

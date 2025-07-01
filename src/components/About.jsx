@@ -299,7 +299,7 @@ const About = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.button
-              className="bg-emerald-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-emerald-600 transition-colors duration-300 shadow-lg hover:shadow-xl"
+              className="bg-[#20cf43] text-white px-8 py-4 rounded-full font-semibold hover:bg-green-600 transition-colors duration-300 shadow-lg hover:shadow-xl"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -307,7 +307,7 @@ const About = () => {
               
             </motion.button>
             <motion.button
-              className="border-2 border-emerald-500 text-emerald-500 px-8 py-4 rounded-full font-semibold hover:bg-emerald-500 hover:text-white transition-all duration-300"
+              className="border-2 border-emerald-500 text-emerald-500 px-8 py-4 rounded-full font-semibold hover:bg-green-600 hover:text-white transition-all duration-300"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

@@ -90,7 +90,7 @@ const Hero = () => {
               href="./Akila_Lochan_CV.pdf" // Update the path to your actual file
               target="_blank"
               rel="noopener noreferrer">
-              <button className="bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-green-600 transition-colors text-lg font-medium bg-green-500">
+              <button className="bg-blue-500 text-white px-8 py-3 rounded-lg cursor-pointer hover:bg-green-600 transition-colors text-lg font-medium bg-green-500">
                 download CV
               </button>
             </a>
@@ -166,7 +166,7 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            Featured Projects
+            Some of my Projects
           </motion.h2>
           <motion.p 
             className="text-gray-600 text-center mb-12"
@@ -248,7 +248,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <button className="bg-gray-800 text-white px-8 py-3 rounded-lg hover:bg-gray-900 transition-colors">
+            <button className="bg-[#20cf43] text-white px-8 py-3 rounded-lg hover:bg-green-600 transition-colors cursor-pointer">
               View All Projects
             </button>
           </motion.div>
