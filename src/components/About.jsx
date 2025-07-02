@@ -46,7 +46,7 @@ const technicalSkills = {
 
 const stats = [
   { number: "10+", label: "Projects Completed", icon: FaCode },
-  { number: "2+", label: "Years Learning", icon: FaRocket },
+  { number: "3+", label: "Years Learning", icon: FaRocket },
   { number: "8A's", label: "O/L Achievement", icon: FaGraduationCap },
   { number: "100%", label: "Passion Level", icon: FaHeart }
 ];
