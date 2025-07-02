@@ -11,7 +11,9 @@ const skills = [
   { name: "Express.js", level: 75, color: "bg-gray-600" },
   { name: "MongoDB", level: 70, color: "bg-green-600" },
   { name: "MySQL", level: 75, color: "bg-blue-600" },
-  { name: "Kotlin", level: 65, color: "bg-purple-500" }
+  { name: "Kotlin", level: 65, color: "bg-purple-500" },
+  { name: "firebase", level: 90, color: "bg-cyan-500" },
+  { name: "supabase", level: 85, color: "bg-indigo-500" }
 ];
 
 const education = [
@@ -41,7 +43,7 @@ const education = [
 const technicalSkills = {
   frontend: ["HTML", "CSS", "React", "Next.js", "Kotlin"],
   backend: ["Node.js", "Express.js", "Next.js", "Kotlin"],
-  databases: ["MySQL", "MongoDB"]
+  databases: ["MySQL", "MongoDB", "Firebase", "Supabase"],
 };
 
 const stats = [
